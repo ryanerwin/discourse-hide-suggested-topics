@@ -1,0 +1,4 @@
+plugins:
+  hide_suggested_topics_enabled:
+    default: true
+    client: true
