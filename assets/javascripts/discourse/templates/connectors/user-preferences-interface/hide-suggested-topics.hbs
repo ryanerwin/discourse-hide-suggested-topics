@@ -1,0 +1,8 @@
+{{#if siteSettings.hide_suggested_topics_enabled}}
+  <div class="controls">
+    <label class="checkbox-label">
+      {{input type="checkbox" checked=model.custom_fields.hide_suggested_topics}}
+      {{i18n "hide_suggested_topics.user_option"}}
+    </label>
+  </div>
+{{/if}}
