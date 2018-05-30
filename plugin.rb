@@ -1,7 +1,7 @@
 # name: hide-suggested-topics
 # version: 0.1
 # author: Muhlis Budi Cahyono (muhlisbc@gmail.com)
-# url: https://github.com/muhlisbc/discourse-hide-suggested-topics-plugin
+# url: https://github.com/ryanerwin/discourse-hide-suggested-topics
 
 enabled_site_setting :hide_suggested_topics_enabled
 
