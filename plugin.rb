@@ -1,11 +1,13 @@
 # name: hide-suggested-topics
-# version: 0.1
+# version: 0.1.1
 # author: Muhlis Budi Cahyono (muhlisbc@gmail.com)
 # url: https://github.com/ryanerwin/discourse-hide-suggested-topics
 
 enabled_site_setting :hide_suggested_topics_enabled
 
 after_initialize {
+
+  register_editable_user_custom_field("hide_suggested_topics")
 
   DiscoursePluginRegistry.serialized_current_user_fields << "hide_suggested_topics"
 
